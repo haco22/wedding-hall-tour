@@ -1,0 +1,11 @@
+{
+  "name": "웨딩홀 투어 대시보드",
+  "short_name": "웨딩홀 투어",
+  "description": "전화·현장체크·견적·비교를 한 번에 관리하는 iPad용 웨딩홀 투어 대시보드",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f2",
+  "theme_color": "#f5f5f2",
+  "lang": "ko-KR"
+}
