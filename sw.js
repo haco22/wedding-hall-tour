@@ -1,4 +1,4 @@
-const CACHE_NAME="wedding-hall-tour-v16-blue-tabs";
+const CACHE_NAME="wedding-hall-tour-v17-choseong-search";
 const CORE=["./","./index.html","./manifest.webmanifest","./app-00.b64","./app-01.b64","./app-02.b64","./app-03.b64","./app-04.b64","./app-05.b64","./app-06.b64"];
 self.addEventListener("install",e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
